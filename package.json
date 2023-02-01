@@ -1,7 +1,8 @@
 {
     "name": "atx-alerts",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "description": "Alerts for CLI",
+    "type": "module",
     "bin": {
         "atxpaul": "index.js"
     },

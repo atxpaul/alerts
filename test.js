@@ -1,34 +1,30 @@
-const alert = require('./index.js');
-
-
+import { alert } from './index.js';
 
 alert({
-    type:`success`,
-    msg:`All jobs are done!`,
-    name:`DONE`
-})
+    type: 'success',
+    msg: 'All jobs are done!',
+    name: 'DONE',
+});
 
 alert({
-    type:`info`,
-    msg:`This is an info message`
-})
+    type: 'info',
+    msg: 'This is an info message',
+});
 
 alert({
-    type:`warning`,
-    msg:`This is an warning message`
-})
+    type: 'warning',
+    msg: 'This is a warning message',
+});
 
 alert({
-    type:`error`,
-    msg:`This is an error message`
-})
+    type: 'error',
+    msg: 'This is an error message',
+});
+
+alert({});
 
 alert({
-    
-})
-
-alert({
-    type:`warning`,
-    msg:`La vas a liar`,
-    name:`PEROPABLO`
-})
+    type: 'warning',
+    msg: 'La vas a liar',
+    name: 'PEROPABLO',
+});
